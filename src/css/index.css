@@ -1,0 +1,21 @@
+/*
+    Global config
+*/
+@import url("global.css");
+
+/* Colours */
+@import url("colours.css");
+
+
+/* 
+    Modules 
+*/
+/* Navbar */
+@import url("navbar.css");
+
+/* 
+    Pages
+*/
+/* Home */
+@import url("main.css");
+
