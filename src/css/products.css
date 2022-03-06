@@ -1,0 +1,36 @@
+
+main#products {
+  margin: 0 auto 3em auto;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#container-grid {
+    flex: 0 1 80%;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-items: center;
+}
+
+#container-grid > a {
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+#container-grid > a img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-bottom: 0.3em;
+}
+
+#container-grid > a span {
+    justify-self: left;
+}
