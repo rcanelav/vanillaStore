@@ -1,0 +1,45 @@
+form {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.form-group label{
+    width: 150px;
+    text-align: left;
+    font-size: var(--font-size-primary);
+}
+
+.form-group > *{
+    width: 200px;
+    margin-left: 10px;
+    padding: 0.5em 1em;
+}
+
+form > button {
+    width: 46%;
+    padding: 0.5em 1em;
+    font-size: var(--font-size-primary);
+    background-color: var(--font-color-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1em;
+    margin: 1em 0 1em 1.1em;
+    transition: all 0.2s ease-in-out;
+}
+
+form > button:hover {
+    color: var(--font-color-secondary);
+}
