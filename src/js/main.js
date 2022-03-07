@@ -12,7 +12,7 @@ const getData = async () => {
 
     return resp.json();
 };
-const data = await getData();
+// const data = await getData();
 const { products } = data;
 
 // Aleatory product for mainpage
