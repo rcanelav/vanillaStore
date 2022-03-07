@@ -14,7 +14,7 @@ const getData = async () => {
 
     return resp.json();
 };
-// const data = await getData();
+const data = await getData();
 const { images } = data.media;
 
 console.log(productId)
@@ -70,6 +70,5 @@ fourthRow.appendChild( createParraph(`Care information: ${data.info.careInfo}`) 
 fourthRow.appendChild( createImage(images[3]) );
 
 fragment.appendChild(fourthRow);
-
 
 root.appendChild(fragment);

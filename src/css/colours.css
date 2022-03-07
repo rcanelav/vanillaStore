@@ -2,6 +2,11 @@
 	Colours
 */
 :root {
-    --font-color-primary: rgba(0, 0, 0, 1);
     --font-size-primary: 1.2em;
+    --font-color-primary: rgba(0, 0, 0, 1);
+    --font-color-secondary: rgba(255, 255, 255, 1);
+    --font-color-tertiary: rgb(195, 197, 64);
+
+    --background-color-primary: rgba(0, 0, 0, 1);
+    --background-color-secondary: rgba(255, 255, 255, 1);
 }
