@@ -4,6 +4,7 @@ footer {
     max-width: 100%;
     position: relative;
     bottom: 10px;
+    height: 10px;
 }
 
 footer > p {
