@@ -8,9 +8,11 @@ _Discover and buy lastest fashion trends (simple Javascript eCommerce) - Multi-p
 
 <div align="center">
   <a href="https://github.com/rcanelav/vanillaStore/">
-    <img src="./src/assets/vanillalogo.jpg" alt="VanillaStore" width="235" height="130">
+    <img src="./docs/assets/vanillalogo.jpg" alt="VanillaStore" width="235" height="130">
   </a>
-
+  <br/>
+  <a href="https://rcanelav.github.io/vanillaStore/">View live demo</a>
+  
   <h3 align="center">¡You want it, you got it!</h3>
 
 </div>
